@@ -1,0 +1,104 @@
+.container{
+   height:100vh;
+   width:97vw;
+    
+}
+.head1{
+    font-family:Single Day;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+    color: rgba(114, 219, 115, 1);
+    margin-top: 90px;
+
+}
+.para1{
+    font-size: 20px;
+    font-family: DM Sans;
+    line-height: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+form{
+flex-direction: column;
+display: flex;
+text-align: center;
+margin-left: 43vw;
+gap: 10px;
+color:white;
+height:97vh;
+margin-top: -15px;
+height:100vh;
+}
+img{
+    margin-right: 45vw;
+    width: 43vw;
+    height:100vh;
+    position: absolute;
+}
+#head{
+    position:absolute;
+    color:rgba(255, 255, 255, 1);
+    line-height: 50px;
+    width:500px;
+    height:100px;
+    margin-left: 15px;
+    font-weight: 900;
+    margin-top: 550px;
+    margin-left: 55px;
+    font-family: Roboto;
+    letter-spacing: 0.5px;
+    font-size: 45px;
+
+}
+#checkbox{
+    width:15px;
+    height:15px;
+    margin-left: -2vw; 
+
+}
+label{
+    color:rgba(124, 124, 124, 1);
+    font-family:DM Sans;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+}
+input{
+    height:40px;
+    width:300px;
+    background: rgba(41, 41, 41, 1);
+    color: white;
+    margin-left: 17vw;
+    border-radius: 5px;
+    font-family: DM Sans;
+    
+  
+}
+button{
+    height:40px;
+    width:302px;
+    margin-left: 17vw;
+    border-radius: 20px;
+    background: rgba(114, 219, 115, 1);
+    font-family: Roboto;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-family: Roboto;
+
+}
+.para{
+    width:300px;
+    height: 50px;
+    margin-left: 17vw;
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 1px;
+    color:rgba(124, 124, 124, 1);
+    justify-content: center;
+    text-align: justify;
+}
+
