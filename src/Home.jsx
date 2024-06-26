@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./index.css"
 import image  from "./image 13.jpg";
 
 function Home(){
+    const navigate=useNavigate()
     const[data,setData]=useState({
         name:"",
         username:"",
@@ -54,7 +56,7 @@ const handleSubmit=(e)=>{
            checkbox:false
         })
     }
-        
+      navigate("/Movie")  
 }  
     return(
         <>
